@@ -72,6 +72,7 @@ print(shapiro_test_result)
     ## data:  eth_data$Return
     ## W = 0.94864, p-value = 5.694e-10
 
-``` r
-# While the W value is not far from 1, the p-value indicates that the data is unlikely to be normally distributed according to the Shapiro-Wilk test. This is true as cryptocurrencies such as ethereum tend to be volatile and display occasional extreme fluctuations.
-```
+While the W value is not far from 1, the p-value indicates that the data
+is unlikely to be normally distributed according to the Shapiro-Wilk
+test. This is true as cryptocurrencies such as ethereum tend to be
+volatile and display occasional extreme fluctuations.
