@@ -44,7 +44,7 @@ hist(df_btc$Change,
 ![](SA2_num1_Cuerdo_Morillo_files/figure-gfm/histogram-1.png)<!-- -->
 
 Given the histogram, we can now proceed to conduct the Kolmogrov-Smirnov
-(KS) Test. The smallest KS resuly will be the best fit for the data.
+(KS) Test. The smallest KS result will be the best fit for the data.
 
 ##### Kolmogrov-Smirnov Test
 
