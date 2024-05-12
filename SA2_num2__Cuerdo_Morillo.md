@@ -5,13 +5,11 @@ MORILLO, JADE MARCO S. & CUERDO, NAOMI HANNAH A.
 
 ## R Markdown
 
-This is an R Markdown document. Markdown is a simple formatting syntax
-for authoring HTML, PDF, and MS Word documents. For more details on
-using R Markdown see <http://rmarkdown.rstudio.com>.
+Test using Shapiro-Wilk normality test the Ethereum returns for trading
+data every five minutes, from August 7, 2015 to April 15, 2024.
 
-When you click the **Knit** button a document will be generated that
-includes both content as well as the output of any embedded R code
-chunks within the document. You can embed an R code chunk like this:
+The data for 5-minute returns is inaccessible, so the data presented is
+for 1 day returns.
 
 ``` r
 # Load necessary packages
@@ -77,6 +75,3 @@ print(shapiro_test_result)
 ``` r
 # While the W value is not far from 1, the p-value indicates that the data is unlikely to be normally distributed according to the Shapiro-Wilk test. This is true as cryptocurrencies such as ethereum tend to be volatile and display occasional extreme fluctuations.
 ```
-
-Note that the `echo = FALSE` parameter was added to the code chunk to
-prevent printing of the R code that generated the plot.
